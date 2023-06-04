@@ -1,0 +1,9 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.mayaa": "xml"
+    },
+    "java.inlayHints.parameterNames.enabled": "none"
+}

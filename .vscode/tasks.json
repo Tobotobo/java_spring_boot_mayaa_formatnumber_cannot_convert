@@ -1,0 +1,16 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "exec build_war.bat",
+            "type": "shell",
+            "command": "./build_war.bat",
+            "group": {
+                "kind": "build", // ビルドタスクとして認識させる
+                "isDefault": true // Ctrl + Shift + B で即実行
+            },
+        }
+    ]
+}

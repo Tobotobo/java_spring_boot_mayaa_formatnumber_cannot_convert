@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mayaa xmlns:m="http://mayaa.seasar.org">
+
+    <!-- 1234 -->
+    <m:formatNumber m:id="aaa" value="1234" pattern="#,###" />
+
+    <!-- 2345 -->
+    <m:formatNumber m:id="bbb" value="${2345}" pattern="#,###" />
+
+    <!-- 3456 -->
+    <m:formatNumber m:id="ccc" value="${ccc}" pattern="#,###" />
+
+    <!-- 4567 -->
+    <m:formatNumber m:id="ddd" value="${ddd}" pattern="#,###" />
+
+    <!-- 5678 -->
+    <m:formatNumber m:id="eee" value="${helloForm.eee}" pattern="#,###" />
+
+    <!-- 6789 -> エラーになる。500:Cannot convert 6789 to java.lang.Number in script= helloForm.fff -->
+    <m:formatNumber m:id="fff" value="${helloForm.fff}" pattern="#,###" />
+
+</m:mayaa>
